@@ -8,6 +8,127 @@ public class Fahrzeug
     private short tueren;
     private boolean gestartet;
     private short geschwindigkeit;
+
+    public short getReifen()
+    {
+        return reifen;
+    }
+
+    public void setReifen(short reifen)
+    {
+        this.reifen = reifen;
+    }
+
+    public String getFarbe()
+    {
+        return farbe;
+    }
+
+    public void setFarbe(String farbe)
+    {
+        this.farbe = farbe;
+    }
+
+    public short getPs()
+    {
+        return ps;
+    }
+
+    public void setPs(short ps)
+    {
+        this.ps = ps;
+    }
+
+    public short getTueren()
+    {
+        return tueren;
+    }
+
+    public void setTueren(short tueren)
+    {
+        this.tueren = tueren;
+    }
+
+    public boolean isGestartet()
+    {
+        return gestartet;
+    }
+
+    public void setGestartet(boolean gestartet)
+    {
+        this.gestartet = gestartet;
+    }
+
+    public short getGeschwindigkeit()
+    {
+        return geschwindigkeit;
+    }
+
+    public void setGeschwindigkeit(short geschwindigkeit)
+    {
+        this.geschwindigkeit = geschwindigkeit;
+    }
+
+    public static int getAnzahl()
+    {
+        return anzahl;
+    }
+
+    public static void setAnzahl(int anzahl)
+    {
+        Fahrzeug.anzahl = anzahl;
+    }
+
+    public boolean isKlimaanlage()
+    {
+        return klimaanlage;
+    }
+
+    public void setKlimaanlage(boolean klimaanlage)
+    {
+        this.klimaanlage = klimaanlage;
+    }
+
+    public short getAirbag()
+    {
+        return airbag;
+    }
+
+    public void setAirbag(short airbag)
+    {
+        this.airbag = airbag;
+    }
+
+    public double getTiefgang()
+    {
+        return tiefgang;
+    }
+
+    public void setTiefgang(double tiefgang)
+    {
+        this.tiefgang = tiefgang;
+    }
+
+    public short getSchrauben()
+    {
+        return schrauben;
+    }
+
+    public void setSchrauben(short schrauben)
+    {
+        this.schrauben = schrauben;
+    }
+
+    public double getLadung()
+    {
+        return ladung;
+    }
+
+    public void setLadung(double ladung)
+    {
+        this.ladung = ladung;
+    }
+
     public static int anzahl;
 
     void starten()
